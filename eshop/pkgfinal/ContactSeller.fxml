@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="478.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eshop.pkgfinal.ContactSellerController">
+   <children>
+      <Label layoutX="196.0" layoutY="48.0" prefHeight="36.0" prefWidth="270.0" text="Feel free to discuss with Us :">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="messegeTextArea" layoutX="104.0" layoutY="123.0" prefHeight="214.0" prefWidth="515.0" />
+      <Label layoutX="106.0" layoutY="97.0" text="Write Here:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="199.0" layoutY="377.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="284.0" text="SEND" />
+      <Button layoutX="31.0" layoutY="423.0" mnemonicParsing="false" onAction="#onBackButtonTap" text="Back" />
+   </children>
+</AnchorPane>
